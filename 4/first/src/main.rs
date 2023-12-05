@@ -20,7 +20,7 @@ where
         // println!("{}", line);
         let mut winning_numbers: HashSet<u32> = HashSet::new();
 
-        let (game, cards) = line.split_once(": ").unwrap();
+        let (_game, cards) = line.split_once(": ").unwrap();
         // println!("Game:: {} ", game);
 
         let numbers = cards.split('|').collect::<Vec<&str>>();
