@@ -3,8 +3,8 @@ use std::fs;
 use std::path::Path;
 
 pub fn main() {
-    solve(String::from("test.txt"));
-    solve(String::from("input.txt"));
+    solve(String::from("../test.txt"));
+    solve(String::from("../input.txt"));
 }
 
 fn solve<T>(file_path: T) -> u32
